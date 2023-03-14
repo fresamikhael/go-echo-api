@@ -11,11 +11,11 @@ make sure your ~/.*shrc have those variable:
 
 ```bash
 ➜  echo $GOPATH
-/Users/xesina/go
+/Users/fresamikhael/go
 ➜  echo $GOROOT
 /usr/local/go/
 ➜  echo $PATH
-...:/usr/local/go/bin:/Users/xesina/test//bin:/usr/local/go/bin
+...:/usr/local/go/bin:/Users/fresamikhael/test//bin:/usr/local/go/bin
 ```
 
 For more info and detailed instructions please check this guide: [Setting GOPATH](https://github.com/golang/go/wiki/SettingGOPATH)
@@ -25,19 +25,19 @@ For more info and detailed instructions please check this guide: [Setting GOPATH
 Clone this repository:
 
 ```bash
-➜ git clone https://github.com/xesina/golang-echo-realworld-example-app.git
+➜ git clone https://github.com/fresamikhael/go-echo-api.git
 ```
 
 Or simply use the following command which will handle cloning the repo:
 
 ```bash
-➜ go get -u -v github.com/xesina/golang-echo-realworld-example-app
+➜ go get -u -v github.com/fresamikhael/go-echo-api
 ```
 
 Switch to the repo folder
 
 ```bash
-➜ cd $GOPATH/src/github.com/xesina/golang-echo-realworld-example-app
+➜ cd $GOPATH/src/github.com/fresamikhael/go-echo-api
 ```
 
 ### Install dependencies
