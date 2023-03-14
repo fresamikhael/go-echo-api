@@ -5,21 +5,21 @@ import (
 	"net/http"
 )
 
-type Pegawai struct {
+type Dosen struct {
 	Id      int    `json:"id"`
 	Nama    string `json:"nama"`
 	Alamat  string `json:"alamat"`
 	Telepon string `json:"telepon"`
 }
 
-func FetchAllPegawai() (Response, error) {
-	var obj Pegawai
-	var arrobj []Pegawai
+func FetchAllDosen() (Response, error) {
+	var obj Dosen
+	var arrobj []Dosen
 	var res Response
 
 	con := db.CreateCon()
 
-	sqlStatement := "SELECT * FROM pegawai"
+	sqlStatement := "SELECT * FROM dosen"
 
 	rows, err := con.Query(sqlStatement)
 	defer rows.Close()
