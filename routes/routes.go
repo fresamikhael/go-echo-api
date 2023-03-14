@@ -15,6 +15,7 @@ func Init() *echo.Echo {
 	})
 
 	e.GET("/dosen", controllers.FetchAllDosen)
+	e.GET("/mahasiswa", controllers.FetchAllMahasiswa)
 
 	return e
 }
