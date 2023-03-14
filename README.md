@@ -25,19 +25,19 @@ For more info and detailed instructions please check this guide: [Setting GOPATH
 Clone this repository:
 
 ```bash
-➜ git clone https://github.com/fresamikhael/go-echo-api.git
+➜ git clone https://github.com/fresamikhael/go-rest-echo.git
 ```
 
 Or simply use the following command which will handle cloning the repo:
 
 ```bash
-➜ go get -u -v github.com/fresamikhael/go-echo-api
+➜ go get -u -v github.com/fresamikhael/go-rest-echo
 ```
 
 Switch to the repo folder
 
 ```bash
-➜ cd $GOPATH/src/github.com/fresamikhael/go-echo-api
+➜ cd $GOPATH/src/github.com/fresamikhael/go-rest-echo
 ```
 
 ### Install dependencies
